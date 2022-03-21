@@ -26,7 +26,7 @@ public class Main extends SignerTestBase{
 		try {
 			
 			System.out.println("INICIA");
-			Document doc = getTestDocument();
+			Document doc = getDocument("document.xml");
 	        Element elemToSign = doc.getDocumentElement();
 
 	        SignatureAlgorithms algorithms = new SignatureAlgorithms()
